@@ -25,10 +25,10 @@ extension MTLDevice {
 			MTKTextureLoaderOptionSRGB: false as NSNumber,
 			MTKTextureLoaderOptionTextureUsage: textureUsage.rawValue as NSNumber
 		]
-		if #available(iOS 10.0, *) {
-			options[MTKTextureLoaderOptionOrigin] = true as NSNumber
-		}
-
+        if #available(iOS 10.0, *) {
+            options[MTKTextureLoaderOptionOrigin] = true as NSNumber
+        }
+        
 		guard let texture = try? self.textureLoader.newTexture(with: image, options: options) else { return nil }
 
 		if texture.pixelFormat == .bgra8Unorm { return texture }

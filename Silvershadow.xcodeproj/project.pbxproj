@@ -359,7 +359,7 @@
 				TargetAttributes = {
 					CCF349561E0F996F00EF1312 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 2P97EM4L4N;
+						DevelopmentTeam = AZLC64ELV9;
 						ProvisioningStyle = Automatic;
 					};
 					CCF3496D1E0F999400EF1312 = {
@@ -648,7 +648,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 2P97EM4L4N;
+				DEVELOPMENT_TEAM = AZLC64ELV9;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -705,7 +705,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 2P97EM4L4N;
+				DEVELOPMENT_TEAM = AZLC64ELV9;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
