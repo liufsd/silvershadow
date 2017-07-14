@@ -11,8 +11,8 @@ using namespace metal;
 
 
 struct VertexIn {
-	float4 position [[ attribute(0) ]];
-	float2 texcoords [[ attribute(1) ]];
+	packed_float4 position;
+	packed_float2 texcoords;
 };
 
 struct VertexOut {
@@ -25,7 +25,7 @@ struct Uniforms {
 };
 
 vertex VertexOut image_vertex(
-	device VertexIn * vertices [[ buffer(0) ]],
+	device VertexIn * vertices,
 	constant Uniforms & uniforms [[ buffer(1) ]],
 	uint vid [[ vertex_id ]]
 ) {
